@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <welcome-file-list>
+  <welcome-file>/PizzaForm.html</welcome-file>
+ </welcome-file-list>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PizzaServlet</servlet-name>
+    <servlet-class>com.gvs.pizza.PizzaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RetrievingAllParams</servlet-name>
+    <servlet-class>com.gvs.pizza.RetrievingAllParams</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>PizzaServlet</servlet-name>
+    <url-pattern>/servlet/PizzaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RetrievingAllParams</servlet-name>
+    <url-pattern>/servlet/RetrievingAllParams</url-pattern>
+  </servlet-mapping>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>

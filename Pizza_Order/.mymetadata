@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="shiva_pizza"
+  id="myeclipse.1382632542796"
+  context-root="/shiva_pizza"
+  j2ee-spec="5.0"
+  archive="shiva_pizza.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
